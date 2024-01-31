@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watch Movies</title>
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel="stylesheet" href="static/css/styles.css" />
+    <link rel="icon" href="static/images/logo.png" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <div class="logo1">
+          <a href="#"><img src="static/images/logo.png" alt="" /></a>
+        </div>
+        <div class="logo2">
+          <a href="#"><img src="static/images/banner.png" alt="" /></a>
+        </div>
+      </div>
+      <div class="navlinks">
+        <ul>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">TV Series</a></li>
+          <li><a href="#">Most Popular</a></li>
+          <li><a href="#">Top Airing</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="logo-details">
+        <i class="bx  icon"><img src="static/images/logo.png" alt="" style="width:20px;" /></i>
+        <div class="logo_name">Anime Corner</div>
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <i class='bx bx-search'></i>
+          <input type="text" placeholder="Search...">
+          <span class="tooltip">Search</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-grid-alt'></i>
+            <span class="links_name">Home</span>
+          </a>
+          <span class="tooltip">Home</span>
+        </li>
+        <li>
+          <a href="#">
+            <img src="static/images/icons8-monkey-d-luffy-48.png" alt="">
+            <span class="links_name">Anime</span>
+          </a>
+          <span class="tooltip">Anime</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-user'></i>
+            <span class="links_name">User</span>
+          </a>
+          <span class="tooltip">User</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-chat'></i>
+            <span class="links_name">Messages</span>
+          </a>
+          <span class="tooltip">Messages</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-pie-chart-alt-2'></i>
+            <span class="links_name">Analytics</span>
+          </a>
+          <span class="tooltip">Analytics</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-folder'></i>
+            <span class="links_name">File Manager</span>
+          </a>
+          <span class="tooltip">Files</span>
+        </li>
+        
+        <li>
+          <a href="#">
+            <i class='bx bx-heart'></i>
+            <span class="links_name">Saved</span>
+          </a>
+          <span class="tooltip">Saved</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-cog'></i>
+            <span class="links_name">Setting</span>
+          </a>
+          <span class="tooltip">Setting</span>
+        </li>
+        <li class="profile">
+          <div class="profile-details">
+            <div class="name_job">
+              <div class="name">Anime</div>
+              <div class="job">Web designer</div>
+            </div>
+          </div>
+          <i class='bx bx-log-out' id="log_out"></i>
+        </li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="left">
+        <h1 id="typing-text"></h1>
+        <div class="search">
+          <form class="search_bar" onclick="" role="search">
+            <input
+              id="search"
+              type="search"
+              placeholder="Search..."
+              autofocus
+              required
+            />
+            <button type="submit">Go</button>
+          </form>
+        </div>
+        <p>
+          <strong>Top search:</strong> One Piece,Jujutsu Kaisen 2nd
+          Season,Naruto: Shippuden,The Eminence in Shadow Season 2,,The Eminence
+          in Shadow,Naruto,,A Returner's Magic Should Be Special,Tokyo
+          Revengers: Tenjiku-hen,,Boruto: Naruto Next Generations,,The Kingdoms
+          of Ruin...
+        </p>
+        <div class="fullsite">
+          <a href="home.html">Visit Full Site</a>
+        </div>
+      </div>
+      <div class="right">
+        <img src="static/images/main.png" class="rounded float-right" alt="...">
+      </div>
+    </div>
+    
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
