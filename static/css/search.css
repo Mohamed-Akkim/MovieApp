@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  
+
+}
+
+html,body{
+  background:#242529;
+  color: #ffff;
+  
+}
+.container-fluid form:nth-child(2){
+  display: none !important;
+}
+
+.navbar{
+  background: transparent !important;
+  transition: 0.3s ease-in-out ;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  border: none !important;
+  
+
+}
+.solid{
+  background-color: rgba(20, 33, 61, 0.7) !important;
+
+}
+
+.logo img {
+  width: 50px;
+  
+}
+.form-control{
+  margin-right: 5px;
+  width: 240px;
+}
+.btn{
+  color: rgb(84, 58, 16);
+  border-color: #fca311ff;
+  font-weight: bolder;
+  background-color: #fca311ff;
+}
+.btn:hover{
+  background: transparent;
+  border-color: #fca311ff;
+  color: #fca311ff;
+  font-weight: bolder;
+}
+
+
+
+.log-in  {
+  width: 70px !important;
+  height: 40px;
+  background-color: #fca311ff;
+  color: rgb(84, 58, 16);
+  font-weight: bolder;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-left: 60px;
+}
+.template{
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 20px;
+  min-height: 80vh;
+}
+.container .box{
+  height: 350px;
+}
+.container .box .moviesDetails{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.leftDetails{
+  font-family: "sofia", sans-serif;
+  text-align: left;
+  width: 140px;
+  padding-left: 15px;
+}
+.leftDetails h5, .leftDetails p{
+  text-align: left;
+}
+
+
+.button{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.button button{
+  padding: 3px 5px;
+  font-size: 20px;
+  background: purple;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen  and (max-width: 575px) {
+    .container-fluid form:nth-child(2){
+      display: block !important;
+    }
+    .container-fluid form:nth-child(3){
+      display: none !important;
+    }
+    .form-control{
+      display: none;
+      position: absolute;
+      top: 65px;
+      right: 160px;
+      width: 200px ;
+    }
+}
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+    .container-fluid form:nth-child(2){
+      display: block !important;
+    }
+    .container-fluid form:nth-child(3){
+      display: none !important;
+    }
+    .form-control{
+      display: none;
+      position: absolute;
+      top: 65px;
+      right: 160px;
+      width: 250px ;
+    }
+}
